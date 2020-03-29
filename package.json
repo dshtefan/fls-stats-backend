@@ -1,0 +1,16 @@
+{
+  "name": "fls-stats-back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node build/app",
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "@ts-tools/build": "^1.2.6",
+    "@types/node": "^13.9.5",
+    "csvtojson": "^2.0.10",
+    "debug": "~2.6.9",
+    "express": "~4.16.1"
+  }
+}
