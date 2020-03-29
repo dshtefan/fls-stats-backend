@@ -1,8 +1,3 @@
 # Project exclude paths
 /node_modules/
-/src/routes/stats.js
-/src/routes/stats.js.map
-/src/app.js
-/src/app.js.map
-/src/MyDate.js
-/src/MyDate.js.map
+/package-lock.json

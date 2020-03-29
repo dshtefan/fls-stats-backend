@@ -47,4 +47,3 @@ class MyDate extends Date {
     }
 }
 exports.default = MyDate;
-//# sourceMappingURL=MyDate.js.map

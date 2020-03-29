@@ -48,7 +48,7 @@ class MyDate extends Date {
     return this.toString() === Obj.toString();
   }
 
-  public toString(): string {
+  toString(): string {
     const year = this.getFullYear();
     const month = this.getMonth() + 1 < 10 ? '0' + (this.getMonth() + 1) : (this.getMonth() + 1) ;
     const day = this.getDate() < 10 ? '0' + this.getDate() : this.getDate();
